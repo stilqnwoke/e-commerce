@@ -2,6 +2,7 @@ import React from 'react';
 import "./Header.css";
 import { Link } from 'react-router-dom';
 import SearchIcon from "@material-ui/icons/Search";
+import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
 function Header() {
     return <nav className="header">
@@ -14,13 +15,13 @@ function Header() {
             <SearchIcon className="header__searchIcon" />
         </div>
 
-        <div to="/login" className="header__nav">
-            <Link className="header__link">
+        <div className="header__nav">
+            <Link to="/login" className="header__link">
                 <div className="header__option">
-                <span>
+                <span className="header__optionLineOne">
                         Hello STK
                 </span>
-                <span>
+                <span className="header__optionLineTwo">
                         Sign In
                 </span>
                 </div>
@@ -28,10 +29,10 @@ function Header() {
 
             <Link className="header__link">
                 <div className="header__option">
-                <span>
+                <span className="header__optionLineOne">
                         Returns
                 </span>
-                <span>
+                <span className="header__optionLineTwo">
                         Orders
                 </span>
                 </div>
@@ -39,12 +40,21 @@ function Header() {
 
             <Link className="header__link">
                 <div className="header__option">
-                <span>
+                <span className="header__optionLineOne">
                         Your
                 </span>
-                <span>
+                <span className="header__optionLineTwo">
                         Prime
                 </span>
+                </div>
+            </Link>
+
+            <Link to="/checkout" className="header__link">
+                <div className="header__optionCart">
+                    <ShoppingBasketIcon />
+                    <span className="header__optionLineTwo heade__basketCount">
+                        0
+                    </span>
                 </div>
             </Link>
         </div>

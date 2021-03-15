@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import "./CheckoutProduct.css";
+import { useStateValue } from './StateProvider';
 
 function CheckoutProduct({ id, title, image, price, rating }) {
+    const [{ basket }, dispatch] = useStateValue();
+
+    const removeFromBasket = () => {
+        // remove item from basket
+    }
+
+
     return <div className="checkoutProduct">
-        <img src={image} />
+        <img className="checkoutProduct__image" src={image} />
 
         <div className="checkoutProduct__info">
             <p className="checkoutProduct__title">

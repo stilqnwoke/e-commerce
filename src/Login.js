@@ -1,8 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Login.css";
 import { Link, useHistory } from "react-router-dom";
+import { auth } from './firebase';
 
 function Login() {
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('');
+
+    const login = event => {
+        event.preventDefault(); // this stops refreshing
+
+        auth.signInWithEmailAndPassword(email, password)
+        .then((auth) => {
+            // logged in and it redirects to home page
+        })
+        .catch((e) => alert(e.message));
+    }
+
+    const register = event => {
+        event.preventDefault(); // this stops refreshing
+
+        auth.createUserWithEmailAndPassword(email, password)
+        .then(auth => {
+            // created a user and it redirects to home page
+        })
+        .catch((e) => alert(e.message));
+    }
+
+
+
     return (
         <div className="login">
             <Link to="/">
@@ -15,13 +41,13 @@ function Login() {
                 <h1>Sign in</h1>
                 <form>
                     <h5>Email</h5>
-                    <input type="text" />
+                    <input value={email} onChange={event => setEmail(event.target.value)} type="email" />
                     <h5>Password</h5>
-                    <input type="text" />
-                    <button>Sign in</button>
+                    <input value={password} onChange={event => setPassword(event.target.value)} type="password" />
+                    <button Onclick={login} type="submit" className="login__signInButton">Sign in</button>
                 </form>
 
-                <button>Create your account</button>
+                <button Onclick={register} className="login__registerButton">Create your account</button>
             </div>
         </div>
     )

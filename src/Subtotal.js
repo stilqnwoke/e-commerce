@@ -7,7 +7,7 @@ import { useHistory } from "react-router-dom";
 
 
 function Subtotal() {
-    const history = useHistory();
+    const history = useHistory(); // browser history
     const [{ basket }, dispatch] = useStateValue();
 
     return (

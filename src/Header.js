@@ -2,7 +2,7 @@ import React from 'react';
 import "./Header.css";
 import { Link } from 'react-router-dom';
 import SearchIcon from "@material-ui/icons/Search";
-import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import { useStateValue } from "./StateProvider";
 import { auth } from './firebase';
 
@@ -18,7 +18,7 @@ function Header() {
 
     return <nav className="header">
         <Link to="/">
-            <img className="header__logo" src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"></img>
+            <img className="header__logo" src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/70/4895533070_cfb6ff6c-44e0-44d2-bd25-958ed2c77daa.png?cb=1616165715"></img>
         </Link>
 
         <div className="header__search">
@@ -62,7 +62,7 @@ function Header() {
 
             <Link to="/checkout" className="header__link">
                 <div className="header__optionBasket">
-                    <ShoppingBasketIcon />
+                    <ShoppingCartOutlinedIcon />
                     <span className="header__optionLineTwo header__basketCount">
                         {basket.length}
                     </span>

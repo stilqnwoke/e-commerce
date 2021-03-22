@@ -15,7 +15,7 @@ function Checkout() {
                 {basket?.length === 0 ? (
                     <div>
                         <h2>
-                            Your shopping basket is empty.
+                            <img className="empty__cart" src="https://shop.aviary.org/resources/images/common/cartEmpty.png"></img>
             </h2>
                     </div>
                 ) : (

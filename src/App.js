@@ -5,6 +5,7 @@ import Header from "./Header";
 import Home from "./Home";
 import Checkout from "./Checkout";
 import Login from "./Login";
+import Footer from "./Footer";
 import Payment from "./Payment";
 import Orders from "./Orders";
 import { useStateValue } from "./StateProvider";
@@ -73,6 +74,7 @@ function App() {
           <Route path="/">
             <Header />
             <Home />
+            <Footer />
           </Route>
         </Switch>
       </div>

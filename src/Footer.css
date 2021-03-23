@@ -1,4 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
 .services {
     display: flex;
     justify-content: space-evenly;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 3px 1px 3px 4px rgb(94 68 109);
+    font-family: 'Electrolize', sans-serif;
 }
+
+.services > ul > li {
+    padding: 5px;
+}
+
+.social__icons {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+.social__icons > li > svg {
+    font-size: 40px;
+}
+
+                
+

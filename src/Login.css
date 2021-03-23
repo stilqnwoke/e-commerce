@@ -6,7 +6,6 @@
     object-fit: contain;
     margin-top: 20px;
     margin-bottom: 20px;
-    
 }
 
 .login {
@@ -16,7 +15,6 @@
     background-color: white;
     height: 100vh;
     font-family: 'Electrolize', sans-serif;
-
 }
 
 .login__container > p {
@@ -45,7 +43,6 @@
 }
 
 .login__container > h1 {
-    
     margin-bottom: 20px;
 }
 

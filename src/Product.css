@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+* {
+	outline: none;
+}
+
 .product {
     display: flex;
     flex-direction: column;
@@ -13,6 +19,7 @@
     box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
     -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
     border-radius: 40px;
+    font-family: 'Electrolize', sans-serif;
 }
 
 .product__info {
@@ -36,7 +43,18 @@
 }
 
 .product > button {
-    background-color: #f0c14b;
+    background-color: white;
     border: 1px solid;
     border-color: #a88734 #9c7e31 #846a29;
+    padding: 10px;
+    font-family: 'Electrolize', sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
 }
+
+.product > button:hover {
+    color: white;
+    background: #551A8B;
+    outline: none;
+}
+

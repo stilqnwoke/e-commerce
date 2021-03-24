@@ -19,6 +19,11 @@
     flex: 0.9;
 }
 
+.logo__text {
+    display: flex;
+    align-items: center;
+}
+
 .header__nav > a {
     padding-left: 20px;
 }
@@ -42,6 +47,7 @@
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;
+    color: black;
 }
 
 .header__optionLineOne {
@@ -57,10 +63,11 @@
 
 .header__link {
     text-decoration: none;
+    color: black;
 }
 
 .header__logo{
-    width: 100px;
+    width: 120px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 15px;
@@ -71,7 +78,8 @@
 }
 
 .header__searchIcon {
-    background-color: rgb(92, 45, 112);
+    background-color: black;
+    color: white;
     border-radius: 3px 18px 18px 0;
     padding: 7px 10px 7px 10px;
     height: 20px !important;
@@ -89,7 +97,7 @@
     border-radius: 18px 0 0 18px;
     height: 12px;
     padding: 10px;
-    border: 1px solid rgb(94, 68, 109);
+    border: 1px solid black;
     width: 100%;
     box-shadow: 1px 1px 2px 1px rgb(94, 68, 109);
     outline: none;

@@ -10,13 +10,13 @@ function Checkout() {
     return (
         <div className="checkout">
             <div className="checkout__left">
-                <img className="checkout__ad" src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg" />
+                {/* <img className="checkout__ad" src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg" /> */}
 
                 {basket?.length === 0 ? (
                     <div>
                         <h2>
                             <img className="empty__cart" src="https://shop.aviary.org/resources/images/common/cartEmpty.png"></img>
-            </h2>
+                        </h2>
                     </div>
                 ) : (
                         <div>

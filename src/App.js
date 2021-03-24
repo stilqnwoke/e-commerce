@@ -7,6 +7,7 @@ import Checkout from "./Checkout";
 import Login from "./Login";
 import Footer from "./Footer";
 import Payment from "./Payment";
+import SecondPage from "./SecondPage";
 import Orders from "./Orders";
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
@@ -57,10 +58,17 @@ function App() {
           <Route path="/orders">
             <Header />
             <Orders />
+            <Footer />
+          </Route>
+          <Route path="/second">
+            <Header />
+            <SecondPage />
+            <Footer />
           </Route>
           <Route path="/checkout">
             <Header />
             <Checkout />
+            <Footer />
           </Route>
           <Route path="/login">
             <Login />

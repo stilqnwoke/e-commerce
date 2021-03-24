@@ -1,0 +1,24 @@
+.second__page {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second__pageRow {
+    display: flex;
+    z-index: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chevrons > svg {
+    font-size: 80px;
+    padding: 10px;
+    color: black;
+}

@@ -36,7 +36,7 @@ function Login() {
         <div className="login">
             <Link to="/">
                 <img className="login__logo"
-                src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/70/4895533070_cfb6ff6c-44e0-44d2-bd25-958ed2c77daa.png?cb=1616165715"
+                src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/298/4925697298_1ab905a8-2ba6-451a-aa38-176587ab5a26.png?cb=1616549959"
                 />
             </Link>
 

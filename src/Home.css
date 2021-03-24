@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
 .home {
     max-width: 1500px;
     margin-left: auto;
@@ -20,4 +22,20 @@
     
 }
 
+.pages {
+    text-align: center;
+    display: flex;
+}
+
+.pages > h1 {
+    font-size: 34px;
+    margin-bottom: 5px;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.chevrons > svg {
+    font-size: 80px;
+    padding: 10px;
+    color: black;
+}
 

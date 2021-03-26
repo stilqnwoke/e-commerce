@@ -35,6 +35,11 @@
 
 .header__optionBasket > svg {
     font-size: 33px;
+    transition: 0.4s;
+}
+
+.header__optionBasket > svg:hover {
+    font-size: 38px;
 }
 
 .header__basketCount {
@@ -59,6 +64,11 @@
     font-size: 19px;
     font-weight: 800;
     font-family: 'Electrolize', sans-serif;
+    transition: 0.4s;
+}
+
+.header__optionLineTwo:hover {
+    font-size: 23px;
 }
 
 .header__link {
@@ -80,7 +90,7 @@
 .header__searchIcon {
     background-color: black;
     color: white;
-    border-radius: 3px 18px 18px 0;
+    /* border-radius: 3px 18px 18px 0; */
     padding: 7px 10px 7px 10px;
     height: 20px !important;
     box-shadow: 1px 1.4px 3px 1.2px rgb(94, 68, 109);
@@ -94,7 +104,7 @@
 
 .header__searchInput {
     background: white;
-    border-radius: 18px 0 0 18px;
+    /* border-radius: 18px 0 0 18px; */
     height: 12px;
     padding: 10px;
     border: 1px solid black;

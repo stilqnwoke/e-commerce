@@ -1,6 +1,6 @@
 import React from 'react';
 import "./SecondPage.css";
-import Product from './Product';
+import Product from '../Product/Product';
 import { Link } from 'react-router-dom';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';

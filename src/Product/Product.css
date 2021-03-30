@@ -44,11 +44,19 @@
 
 .product__info {
     height: 100px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+    z-index: 1;
 }
 
 .product__price {
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    z-index: 1;
+}
+
+.product__price > small {
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .image__container {
@@ -60,7 +68,7 @@
 }
 
 .image__container > img {
-    height: 40vh;
+    height: 30vh;
     max-width: 100%;
     object-fit: contain;
     margin-bottom: 15px;
@@ -68,11 +76,12 @@
 }
 
 .product:hover > .image__container > img {
-    max-width: 35%;
+    max-width: 27%;
 }
 
 .product__rating {
     display: flex;
+    font-size: 20px;
 }
 
 .product > button {

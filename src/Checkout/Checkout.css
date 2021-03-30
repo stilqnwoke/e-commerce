@@ -13,9 +13,8 @@
 
 
 .empty__cart {
-    display: flex;
-    flex: 1;
-    justify-content: center;
+    
     height: 60vh;
+    
     
 }

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
 
 .services {
+    position: sticky;
     display: flex;
     justify-content: space-evenly;
     padding: 40px;
@@ -22,6 +23,11 @@
 
 .social__icons > li > svg {
     font-size: 40px;
+    transition: 0.4s;
+}
+
+.social__icons > li > svg:hover {
+    font-size: 48px;
 }
 
                 

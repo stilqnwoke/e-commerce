@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Product.css";
-import { useStateValue } from './StateProvider';
+import { useStateValue } from '../Reducer and State/StateProvider';
 
 function Product({ id, title, image, price, rating }) {
     const [{ basket }, dispatch] = useStateValue();
@@ -21,6 +21,8 @@ function Product({ id, title, image, price, rating }) {
 
 
     return <div className="product">
+
+        <div className="image__container"><img src={image}></img></div>
         <div className="product__info">
             <p>{title}</p>
             <p className="product__price">
@@ -32,13 +34,12 @@ function Product({ id, title, image, price, rating }) {
                 {Array(rating)
                     .fill()
                     .map((_) => (
-                        <p>⭐</p>
+                        <p>☆</p>
                     ))}
 
             </div>
         </div>
 
-        <div className="image__container"><img src={image}></img></div>
         <button onClick={addToBasket}>
             Add to basket
         </button>

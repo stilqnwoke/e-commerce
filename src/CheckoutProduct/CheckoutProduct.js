@@ -1,6 +1,6 @@
 import React from 'react';
 import "./CheckoutProduct.css";
-import { useStateValue } from './StateProvider';
+import { useStateValue } from '../Reducer and State/StateProvider';
 
 
 function CheckoutProduct({ id, title, image, price, rating, hideButton }) {
@@ -34,7 +34,7 @@ function CheckoutProduct({ id, title, image, price, rating, hideButton }) {
                 {Array(rating)
                     .fill()
                     .map((_) => (
-                        <p>⭐</p>
+                        <p>☆</p>
                     ))}
 
             </div>

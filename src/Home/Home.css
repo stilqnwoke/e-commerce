@@ -28,14 +28,34 @@
 }
 
 .pages > h1 {
-    font-size: 34px;
+    font-size: 25px;
     margin-bottom: 5px;
     font-family: 'Electrolize', sans-serif;
 }
 
-.chevrons > svg {
-    font-size: 80px;
+.chevrons {
+    font-size: 50px;
     padding: 10px;
     color: black;
 }
+
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: white;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #0b3b4d;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #022b33;
+  }
 

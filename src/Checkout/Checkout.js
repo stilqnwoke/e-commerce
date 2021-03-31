@@ -3,6 +3,8 @@ import { useStateValue } from '../Reducer and State/StateProvider';
 import CheckoutProduct from "../CheckoutProduct/CheckoutProduct";
 import "./Checkout.css";
 import Subtotal from "../Subtotal/Subtotal";
+import { Link } from 'react-router-dom';
+
 
 
 function Checkout() {
@@ -14,10 +16,14 @@ function Checkout() {
                 {/* <img className="checkout__ad" src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg" /> */}
 
                 {basket?.length === 0 ? (
-                    <div>
-                        <h2>
-                            <img className="empty__cart" src="https://shop.aviary.org/resources/images/common/cartEmpty.png"></img>
-                        </h2>
+                    <div className="no__products">
+                            <img className="empty__cart" src="https://www.frostcouture.ie/skin/frontend/rwd/acjewellary/images/empty_cart.png"></img>
+                            <div className="message">
+                                <h1>You need to add items to the cart, to proceed to Checkout</h1>
+                                <Link to="/">
+                                    <button className="products__page">Search for products</button>
+                                </Link>
+                            </div>
                     </div>
                 ) : (
                         <div>

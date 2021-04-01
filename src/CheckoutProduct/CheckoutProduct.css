@@ -2,13 +2,14 @@
    display: flex;
    margin-top: 20px;
    margin-bottom: 20px;
+   border-bottom: 2px solid black;
 }
 
 .checkoutProduct__image {
     object-fit: contain;
     width: 180px;
     height: 180px;
-    
+    margin-bottom: 20px;
 }
 
 .checkoutProduct__info {
@@ -16,19 +17,38 @@
 }
 
 .checkoutProduct__title {
-    font-size: 17px;
+    margin-top: 10px;
+    font-size: 25px;
     font-weight: 800;
+    font-family: 'Electrolize', sans-serif;
 }
 
 .checkoutProduct__rating {
     display: flex;
+    font-size: 25px;
+}
+
+.checkoutProduct__price > small {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Electrolize', sans-serif;
+    
+    
+}
+
+.price {
+    font-family: 'Electrolize', sans-serif;
     font-size: 20px;
 }
 
+
 .checkoutProduct__info > button {
-    background: #f0c14b;
-    border: 1px solid;
-    margin-top: 10px;
-    border-color: #a88734 #9c7e31 #846a29;
-    color: #111;
+    margin-top: 20px;
+    padding: 3px 15px 3px 15px;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
 }

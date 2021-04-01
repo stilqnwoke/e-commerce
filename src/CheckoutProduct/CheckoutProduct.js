@@ -27,7 +27,7 @@ function CheckoutProduct({ id, title, image, price, rating, hideButton }) {
             </p>
             <p className="checkoutProduct__price">
                 <small>$</small>
-                <strong>{price}</strong>
+                <strong className="price">{price}</strong>
             </p>
             <div className="checkoutProduct__rating">
 
@@ -40,7 +40,7 @@ function CheckoutProduct({ id, title, image, price, rating, hideButton }) {
             </div>
 
             {!hideButton && (
-                <button onClick={removeFromBasket}>
+                <button onClick={removeFromBasket} className="remove__button">
                     Remove from basket
                 </button>
 

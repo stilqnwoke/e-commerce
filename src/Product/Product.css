@@ -31,7 +31,7 @@
     top: -50%;
     width: 100%;
     height: 100%;
-    background: rgb(49, 5, 27);
+    background: white;
     transform: skewY(345deg);
     transition: 0.5s;
 }
@@ -109,8 +109,8 @@
 }
 
 .product > button:hover {
-    color: white;
-    background: black;
+    color: black;
+    background: #aa9ea6;
     outline: none;
 }
 

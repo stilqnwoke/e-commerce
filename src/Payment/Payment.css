@@ -50,3 +50,9 @@
     cursor: pointer;
     width: 100%;
 }
+
+.payment__details > form > div > button:hover {
+    color: black;
+    background: #aa9ea6;
+    outline: none;
+}

@@ -44,12 +44,13 @@ function Login() {
                 <h1>Sign in</h1>
                 <form>
                     <h5>Email</h5>
-                    <input value={email} onChange={event => setEmail(event.target.value)} type="email" />
+                    <input value={email} onChange={event => setEmail(event.target.value)} type="email" placeholder="Your email.."/>
                     <h5>Password</h5>
-                    <input value={password} onChange={event => setPassword(event.target.value)} type="password" />
+                    <input value={password} onChange={event => setPassword(event.target.value)} type="password" placeholder="Your password.."/>
+                    <h4 className="instructions">Please click on "Sign in" to Login</h4>
                     <button onClick={login} type="submit" className="login__signInButton">Sign in</button>
                 </form>
-
+                <h4 className="instructions">Or on "Create your account" to Register</h4>
                 <button onClick={register} className="login__registerButton">Create your account</button>
             </div>
         </div>

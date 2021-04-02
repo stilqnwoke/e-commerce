@@ -52,3 +52,9 @@
     cursor: pointer;
     position: relative;
 }
+
+.checkoutProduct__info > button:hover {
+    color: black;
+    background: #aa9ea6;
+    outline: none;
+}

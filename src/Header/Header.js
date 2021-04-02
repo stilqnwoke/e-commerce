@@ -17,7 +17,7 @@ function Header() {
 
 
     return <nav className="header">
-        
+
         <Link to="/">
             <img className="header__logo" src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/298/4925697298_1ab905a8-2ba6-451a-aa38-176587ab5a26.png?cb=1616549959"></img>
         </Link>
@@ -28,47 +28,78 @@ function Header() {
         </div>
 
         <div className="header__nav">
-            <Link to={!user && "/login"} className="header__link">
-                <div onClick={login} className="header__option">
-                <span className="header__optionLineOne">
-                        {user ? `Hello ${user.email}` : 'Hello guest'}
-                </span>
-                <span className="header__optionLineTwo">
-                        {user ? 'Sign Out' : 'Sign In'}
-                </span>
-                </div>
-            </Link>
 
-            <Link to="./orders" className="header__link">
-                <div className="header__option">
-                <span className="header__optionLineOne">
-                        Returns
-                </span>
-                <span className="header__optionLineTwo">
-                        Orders
-                </span>
-                </div>
-            </Link>
+            {user ? (
+                <div className="logged__in">
+                    <Link to={!user && "/login"} className="header__link">
+                        <div onClick={login} className="header__option">
+                            <span className="header__optionLineOne">
+                                {user ? `Hello ${user.email}` : 'Hello guest'}
+                            </span>
+                            <span className="header__optionLineTwo">
+                                {user ? 'Sign Out' : 'Sign In'}
+                            </span>
+                        </div>
+                    </Link>
 
-            <Link className="header__link">
-                <div className="header__option">
-                <span className="header__optionLineOne">
-                        Your
+                    <Link to="./orders" className="header__link">
+                        <div className="header__option">
+                            <span className="header__optionLineOne">
+                                Returns
                 </span>
-                <span className="header__optionLineTwo">
-                        Prime
+                            <span className="header__optionLineTwo">
+                                Orders
                 </span>
-                </div>
-            </Link>
+                        </div>
+                    </Link>
 
-            <Link to="/checkout" className="header__link">
-                <div className="header__optionBasket">
-                    <ShoppingCartOutlinedIcon />
-                    <span className="header__optionLineTwo header__basketCount">
-                        {basket.length}
-                    </span>
+                    <Link className="header__link">
+                        <div className="header__option">
+                            <span className="header__optionLineOne">
+                                Your
+                </span>
+                            <span className="header__optionLineTwo">
+                                Account
+                </span>
+                        </div>
+                    </Link>
+
+                    <Link to="/checkout" className="header__link">
+                        <div className="header__optionBasket">
+                            <ShoppingCartOutlinedIcon />
+                            <span className="header__optionLineTwo header__basketCount">
+                                {basket.length}
+                            </span>
+                        </div>
+                    </Link>
+
                 </div>
-            </Link>
+            ) : (
+                    <div className="logged__out">
+                        <Link to={!user && "/login"} className="header__link">
+                            <div onClick={login} className="header__option">
+                                <span className="header__optionLineOne">
+                                    {user ? `Hello ${user.email}` : 'Hello guest'}
+                                </span>
+                                <span className="header__optionLineTwo">
+                                    {user ? 'Sign Out' : 'Sign In'}
+                                </span>
+                            </div>
+                        </Link>
+
+
+
+                        <Link to="/checkout" className="header__link">
+                            <div className="header__optionBasket">
+                                <ShoppingCartOutlinedIcon />
+                                <span className="header__optionLineTwo header__basketCount">
+                                    {basket.length}
+                                </span>
+                            </div>
+                        </Link>
+                    </div>
+                )}
+
         </div>
     </nav>
 

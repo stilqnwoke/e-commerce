@@ -12,6 +12,25 @@
     box-shadow: 1px 1px 3px 1px rgb(94, 68, 109);
 }
 
+.logged__in {
+    display: flex;
+    align-items: center;
+}
+
+.logged__in > a {
+    /* margin-left: 10px; */
+}
+
+.logged__out {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logged__out > a {
+    margin-left: 20px;
+}
+
 .header__nav {
     display: flex;
     justify-content: flex-end;

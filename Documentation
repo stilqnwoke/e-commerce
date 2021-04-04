@@ -1,0 +1,17 @@
+Documentation of the E-commerce ReactJS project 
+
+The project is an online e-commerce website. It has authentication, public/private sections and home page with products. 
+You can add the products to the shopping cart and proceed to Checkout. I have implemented a payment system using Stripe, which collects real payments. 
+Once you make a payment, if you are logged into an account, you have an Orders page, where you can review the orders you made with date and time of making the order 
+and order numbers. 
+
+I have used the following technologies, frameworks and development techniques: 
+
+1. Context API (REACT) 
+2. Firebase (user authentication + database) 
+3. React JS 
+4. React Router 
+5. Material UI for Icons 
+6. React Hooks 
+7. Client-side routing 
+8. Payment implementation using Stripe

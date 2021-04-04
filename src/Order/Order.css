@@ -6,13 +6,25 @@
     position: relative;
 }
 
+.order > h2 {
+    font-family: 'Electrolize', sans-serif;
+    margin-bottom: 10px;
+}
+
+.order__date {
+    font-family: 'Electrolize', sans-serif;
+}
+
 .order__id {
     position: absolute;
     top: 40px;
     right: 20px;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 25px;
 }
 
 .order__total {
-    font-weight: 500;
+    font-weight: 600;
     text-align: right;
+    font-family: 'Electrolize', sans-serif;
 }

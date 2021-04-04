@@ -45,7 +45,7 @@ function Header() {
                     <Link to="./orders" className="header__link">
                         <div className="header__option">
                             <span className="header__optionLineOne">
-                                Returns
+                                Your
                 </span>
                             <span className="header__optionLineTwo">
                                 Orders
@@ -56,10 +56,10 @@ function Header() {
                     <Link className="header__link">
                         <div className="header__option">
                             <span className="header__optionLineOne">
-                                Your
+                                About us
                 </span>
                             <span className="header__optionLineTwo">
-                                Account
+                                Contacts
                 </span>
                         </div>
                     </Link>
@@ -87,7 +87,16 @@ function Header() {
                             </div>
                         </Link>
 
-
+                        <Link className="header__link">
+                        <div className="header__option">
+                            <span className="header__optionLineOne">
+                                About us
+                </span>
+                            <span className="header__optionLineTwo">
+                                Contacts
+                </span>
+                        </div>
+                    </Link>
 
                         <Link to="/checkout" className="header__link">
                             <div className="header__optionBasket">

@@ -17,10 +17,6 @@
     align-items: center;
 }
 
-.logged__in > a {
-    /* margin-left: 10px; */
-}
-
 .logged__out {
     display: flex;
     align-items: center;

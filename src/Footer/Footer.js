@@ -10,7 +10,7 @@ function Footer() {
             <article className="services">
                 <ul>
                     <li><a>Terms of Service</a></li>
-                    <li><a>Contacts</a></li>
+                    <li><a>Sales</a></li>
                     <li><a>Deals</a></li>
 
                 </ul>

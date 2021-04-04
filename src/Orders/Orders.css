@@ -3,6 +3,52 @@
 }
 
 .orders > h1 {
+  font-family: 'Electrolize', sans-serif;
+  text-align: center;
+}
+
+.no__orders {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.no__orders > div > h1 {
+  text-align: center;
+}
+
+.no__orders > div > svg {
+  margin-top: 50px;
+  font-size: 150px;
+  
+}
+
+.container__button {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.button {
+  margin-top: 30px;
+  padding: 7px 25px 7px 25px;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.empty__orders {
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: 'Electrolize', sans-serif;
+
+}
+
+.orders > h1 {
     margin: 30px 0;
 }
 

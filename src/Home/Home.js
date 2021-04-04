@@ -12,7 +12,7 @@ function Home() {
         <div className="home__row">
             <Product
                 id="21321321"
-                title="first product"
+                title="The Lean Startup"
                 price={11.96}
                 rating={5}
                 image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_B01,204,203,200_.jpg"
@@ -20,18 +20,18 @@ function Home() {
 
             <Product
                 id="21321321"
-                title="first product"
-                price={239}
-                rating={5}
+                title="USB Speaker"
+                price={139}
+                rating={3}
                 image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?%24300x400_retinamobilex2%24"
             />
 
             <Product
                 id="21321321"
-                title="first product"
-                price={239}
-                rating={5}
-                image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?%24300x400_retinamobilex2%24"
+                title="Credit Card Wallet"
+                price={11.04}
+                rating={4}
+                image="https://images-na.ssl-images-amazon.com/images/I/7194TAsM-9L.__AC_SY300_SX300_QL70_FMwebp_.jpg"
             />
 
 
@@ -41,52 +41,52 @@ function Home() {
         <div className="home__row">
             <Product
                 id="21321321"
-                title="first product"
-                price={199.99}
-                rating={5}
-                image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_B01,204,203,200_.jpg"
+                title="Gaming Headset for PC"
+                price={26.35}
+                rating={4}
+                image="https://images-na.ssl-images-amazon.com/images/I/615o1%2BWB5IL._AC_SL1000_.jpg"
             />
 
             <Product
                 id="21321321"
-                title="first product"
-                price={98.99}
-                rating={5}
-                image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_B01,204,203,200_.jpg"
+                title="Face Masks Reusable"
+                price={16.99}
+                rating={4}
+                image="https://images-na.ssl-images-amazon.com/images/I/61lNm8pSDXL._AC_SX569_.jpg"
             />
 
             <Product
                 id="21321321"
-                title="first product"
-                price={598.99}
+                title="GoPro HERO8 Black"
+                price={299.99}
                 rating={5}
-                image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_B01,204,203,200_.jpg"
+                image="https://images-na.ssl-images-amazon.com/images/I/61aldlBUqYL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
             />
         </div>
 
         <div className="home__row">
             <Product
                 id="21321321"
-                title="first product"
-                price={1094.98}
-                rating={5}
-                image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_B01,204,203,200_.jpg"
+                title="USB C Charger"
+                price={23.70}
+                rating={2}
+                image="https://images-na.ssl-images-amazon.com/images/I/51p5hvao-ZL._AC_SL1300_.jpg"
             />
 
             <Product
                 id="21321321"
-                title="first product"
-                price={239}
-                rating={5}
-                image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?%24300x400_retinamobilex2%24"
+                title="19-Inch Mickey Mouse"
+                price={10.99}
+                rating={4}
+                image="https://images-na.ssl-images-amazon.com/images/I/81Tiz99G%2BSL._AC_SL1500_.jpg"
             />
 
             <Product
                 id="21321321"
-                title="first product"
-                price={239}
-                rating={5}
-                image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?%24300x400_retinamobilex2%24"
+                title="Magnetic Wireless Charger"
+                price={23.99}
+                rating={3}
+                image="https://images-na.ssl-images-amazon.com/images/I/61KobYn6YkL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
             />
 
         </div>

@@ -13,18 +13,26 @@ function SecondPage() {
 
                 <Product
                     id="21321321"
-                    title="first product"
-                    price={239}
-                    rating={5}
-                    image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?%24300x400_retinamobilex2%24"
+                    title="Tablet Stand Holder"
+                    price={24.64}
+                    rating={4}
+                    image="https://images-na.ssl-images-amazon.com/images/I/610qp4ahVPL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
                 />
 
                 <Product
                     id="21321321"
-                    title="first product"
-                    price={239}
+                    title="Tinwoo Smart Watch for Android"
+                    price={50.99}
+                    rating={4}
+                    image="https://images-na.ssl-images-amazon.com/images/I/613Ha42CqOL._AC_SL1000_.jpg"
+                />
+
+                <Product
+                    id="21321321"
+                    title="All-In-One Car Seat"
+                    price={328.49}
                     rating={5}
-                    image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?%24300x400_retinamobilex2%24"
+                    image="https://images-na.ssl-images-amazon.com/images/I/41Tgj0fkVIL._SX300_SY300_QL70_FMwebp_.jpg"
                 />
 
 
@@ -33,26 +41,26 @@ function SecondPage() {
             <div className="second__pageRow">
                 <Product
                     id="21321321"
-                    title="first product"
-                    price={199.99}
-                    rating={5}
-                    image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_B01,204,203,200_.jpg"
+                    title="2K Indoor Cam Pan"
+                    price={39.99}
+                    rating={3}
+                    image="https://images-na.ssl-images-amazon.com/images/I/61mpwmt5wcL.__AC_SY300_SX300_QL70_FMwebp_.jpg"
                 />
 
                 <Product
                     id="21321321"
-                    title="first product"
-                    price={98.99}
+                    title="Inflatable Recovery Dog Collar"
+                    price={13.59}
                     rating={5}
-                    image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_B01,204,203,200_.jpg"
+                    image="https://images-na.ssl-images-amazon.com/images/I/81edruxidHL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
                 />
 
                 <Product
                     id="21321321"
-                    title="first product"
-                    price={598.99}
+                    title="Electric Hand Mixer"
+                    price={19.99}
                     rating={5}
-                    image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_B01,204,203,200_.jpg"
+                    image="https://images-na.ssl-images-amazon.com/images/I/71ejvAQfD5L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
                 />
             </div>
 
@@ -60,18 +68,26 @@ function SecondPage() {
 
                 <Product
                     id="21321321"
-                    title="first product"
-                    price={239}
-                    rating={5}
-                    image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?%24300x400_retinamobilex2%24"
+                    title="ORDA Wireless Controller"
+                    price={15.29}
+                    rating={3}
+                    image="https://images-na.ssl-images-amazon.com/images/I/71VsPl1gbCL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
                 />
 
                 <Product
                     id="21321321"
-                    title="first product"
-                    price={239}
-                    rating={5}
-                    image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?%24300x400_retinamobilex2%24"
+                    title="Leather Working Tools"
+                    price={75.61}
+                    rating={4}
+                    image="https://images-na.ssl-images-amazon.com/images/I/71DZfHF9zTL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+                />
+
+                <Product
+                    id="21321321"
+                    title="Bagless Vacuum Cleaner"
+                    price={74.99}
+                    rating={2}
+                    image="https://images-na.ssl-images-amazon.com/images/I/71GZiLcM0bL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
                 />
 
             </div>
